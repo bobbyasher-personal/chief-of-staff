@@ -4,6 +4,16 @@ A plain-markdown skill for Claude / Claude Code that acts as an executive assist
 
 **North star: make the principal capable of doing high-leverage work.** Not inbox zero. Not a tidy calendar.
 
+**See it first:** a complete fictional morning brief is in [examples/sample-brief.md](examples/sample-brief.md), written for the fictional pack in [examples/example-pack.md](examples/example-pack.md). Two minutes there will tell you more than this whole page.
+
+## Quickstart (~10 minutes)
+
+1. **Get the skill** — `git clone https://github.com/bobbyasher-personal/chief-of-staff.git`, or download the repo ZIP (Code → Download ZIP) and unzip.
+2. **Install it** — Claude Code: copy the `chief-of-staff/` folder to `~/.claude/skills/chief-of-staff/`. Claude app: zip the `chief-of-staff/` folder itself and upload it under Settings → Skills.
+3. **Write your pack** (~10 min, the only real step) — copy `chief-of-staff/packs/startup.template.md` (or `future-role.template.md`), rename it for your arena, and fill it in using the example pack as a model: your Top 3, your fronts, your VIPs, what "high leverage" means for you.
+4. **Calibrate** — run `/chief-of-staff calibrate <your-pack>` and answer the setup questions; the answers land in that pack's local STATE file.
+5. **Tomorrow morning** — run `/chief-of-staff morning <your-pack>` (or set up a scheduled push — see Delivery below). Mark the brief `useful` / `noisy` / `missed: …`; the skill tunes from that line.
+
 ## What it produces
 
 - **EA Daily Brief** (weekdays) — the single highest-leverage action for today, a Queue of who is blocked on the principal (ranked by leverage, not age), calendar verdicts (attend / skip / delegate / async), prep cards for the top meetings, open commitments in both directions, and a grouped cut / delegate / async list with drafts.
@@ -44,7 +54,11 @@ chief-of-staff/            the installable skill
 distribution/
   coach-for-leaders/       sanitized distribution variant of the skill
   ONE-PAGER-for-leaders.md one-page intro a leader can adapt and share
+examples/
+  sample-brief.md          a complete fictional morning brief (start here)
+  example-pack.md          a worked, fictional pack to model yours on
 CHANGELOG.md               every change, one line, tied to the run/feedback that prompted it
+LICENSE                    MIT
 ```
 
 ## Install & run
@@ -68,3 +82,7 @@ Each pack keeps a `STATE-<pack>.md` file: standing rules, current priorities and
 ## Versioning
 
 Semver-ish, with CHANGELOG discipline: every change to the skill gets a version bump in the changed file's frontmatter **and** a one-line `CHANGELOG.md` entry naming what changed and what real run or feedback prompted it. Changes are made one at a time, driven by real runs (a brief that was noisy, missed something, or mis-scored leverage), so each change's effect is visible in the next brief. Never edit the only copy of a working version — git history is the archive.
+
+## License
+
+MIT — see [LICENSE](LICENSE). Use it, adapt it, share it. Design borrowed in part from [Coach Alfred](https://github.com/mitensampat/alfred) (MIT), credited in the skill files.
