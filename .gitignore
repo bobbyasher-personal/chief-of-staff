@@ -1,0 +1,17 @@
+# STATE files hold real operating data — local only, never committed.
+# This repo ships STATE.template.md only.
+STATE.md
+*/STATE.md
+**/STATE.md
+STATE-*.md
+**/STATE-*.md
+
+# Local-only pack variants and notes
+packs/*.local.md
+**/packs/*.local.md
+*.local.md
+
+# Backups and OS noise
+*.zip.bak
+*.bak
+.DS_Store

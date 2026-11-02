@@ -1,0 +1,3 @@
+# Changelog — chief-of-staff (portable core + packs in this repo)
+
+- 2026-11-02 — Repository created. Contents: the role-agnostic core skill (leverage filter, Desk, five lenses, commitment scoring, STATE durability classes, calibration, feedback loop), blank pack templates (future role, startup), and the sanitized leader-distribution package. Milestone: skill version 2.8 approved as the trial version by its owner, after a full offline eval programme (frozen fictional fixtures, independent scoring, hard gates — zero invented facts, zero sends, zero leaks — never breached). Employer packs and all filled STATE files stay out of this repo by design.
