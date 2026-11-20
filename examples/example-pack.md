@@ -13,11 +13,13 @@
 **Arena:** her day job. She also runs a small side business — that lives in a *separate* pack, sealed from this one.
 **Sources in this environment:** Google Calendar, Gmail, Slack (company workspace).
 
-## Top 3 priorities (this quarter)
+## Top 5 priorities (this quarter)
 
 1. Ship the Atlas onboarding redesign to GA by end of quarter.
 2. Land the annual pricing & packaging decision with Finance.
 3. Hire and ramp two senior PMs.
+4. Turn the design-partner beta into a repeatable launch programme for the next two releases.
+5. Keep roadmap credibility with Sales — a quarterly roadmap review the field actually trusts.
 
 ## Fronts (initiatives)
 

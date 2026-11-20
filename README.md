@@ -10,14 +10,14 @@ A plain-markdown skill for Claude / Claude Code that acts as an executive assist
 
 1. **Get the skill** — `git clone https://github.com/bobbyasher-personal/chief-of-staff.git`, or download the repo ZIP (Code → Download ZIP) and unzip.
 2. **Install it** — Claude Code: copy the `chief-of-staff/` folder to `~/.claude/skills/chief-of-staff/`. Claude app: zip the `chief-of-staff/` folder itself and upload it under Settings → Skills.
-3. **Write your pack** (~10 min, the only real step) — copy `chief-of-staff/packs/startup.template.md` (or `future-role.template.md`), rename it for your arena, and fill it in using the example pack as a model: your Top 3, your fronts, your VIPs, what "high leverage" means for you.
+3. **Write your pack** (~10 min, the only real step) — copy `chief-of-staff/packs/startup.template.md` (or `future-role.template.md`), rename it for your arena, and fill it in using the example pack as a model: your Top 5, your fronts, your VIPs, what "high leverage" means for you.
 4. **Calibrate** — run `/chief-of-staff calibrate <your-pack>` and answer the setup questions; the answers land in that pack's local STATE file.
 5. **Tomorrow morning** — run `/chief-of-staff morning <your-pack>` (or set up a scheduled push — see Delivery below). Mark the brief `useful` / `noisy` / `missed: …`; the skill tunes from that line.
 
 ## What it produces
 
 - **EA Daily Brief** (weekdays) — the single highest-leverage action for today, a Queue of who is blocked on the principal (ranked by leverage, not age), calendar verdicts (attend / skip / delegate / async), prep cards for the top meetings, open commitments in both directions, and a grouped cut / delegate / async list with drafts.
-- **Monday Chief of Staff Pass** — last week closed vs. slipped, a leverage review of where the hours actually went, the biggest low-leverage drain (with a proposal to kill it), Top-3 priorities for the week, a fronts review, and an "altitude" check on whether the week is pitched at the level the principal is aiming for.
+- **Monday Chief of Staff Pass** — last week closed vs. slipped, a leverage review of where the hours actually went, the biggest low-leverage drain (with a proposal to kill it), Top-5 priorities for the week, a fronts review, and an "altitude" check on whether the week is pitched at the level the principal is aiming for.
 - **End-of-Day Wrap** — what closed, what slipped, and a warning tonight if tomorrow is overloaded.
 - **Calibration** — a short setup conversation per pack that tunes priorities, VIPs, noise sources, and standing rules.
 
@@ -31,7 +31,7 @@ The same skill brain sits behind three doors:
 
 ## How packs work (the core idea)
 
-All machinery lives **once** in the core skill. Everything specific to an arena — role, Top-3 priorities, initiatives ("fronts"), sources, VIPs, what "high leverage" means there — lives in a **pack**: one small markdown file per arena.
+All machinery lives **once** in the core skill. Everything specific to an arena — role, Top-5 priorities, initiatives ("fronts"), sources, VIPs, what "high leverage" means there — lives in a **pack**: one small markdown file per arena.
 
 - **Packs are sealed.** A run loads exactly one pack. Content, names, and facts never travel from one pack into another pack's briefs or drafts.
 - **An employer pack runs only inside that employer's own approved AI environment**, with that employer's connectors. Employer data never leaves that environment, and no personal data enters it.

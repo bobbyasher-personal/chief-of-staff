@@ -14,10 +14,12 @@ Role: Founder (solo + 2 contractors: one engineer, one part-time designer).
 Aim: the one metric this quarter — **40 paying contractor firms** (currently 17). Everything else is commentary until that number moves.
 > *Shape: ONE metric, with the current value next to the target. A startup pack with three "one metrics" has none.*
 
-Top-3:
+Top-5:
 1. Revenue/validation — convert the 9 firms in active trials before their trials lapse
 2. Product/build — ship automated invoice-to-job matching (the feature 6 of 9 trial accounts asked for)
 3. Runway/ops — keep runway ≥ 12 months; close the bookkeeping handoff so Marcus stops doing it
+4. Retention — zero regretted churn among the 17 paying firms; every account touched monthly
+5. Founder leverage — every delegable ops task off Marcus's plate by quarter end
 > *Shape: the template's draft shape made real — the revenue front names its actual pipeline, the build front names the feature customers asked for (not the founder's favourite), and runway carries a floor number.*
 
 Fronts:

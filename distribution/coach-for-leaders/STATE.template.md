@@ -8,7 +8,7 @@
 
 ## thesis — Tuning (filled by `calibrate` mode)
 - My role: TBD    My aim this year: TBD
-- Top-3 priorities this quarter: TBD (your words, from calibration)
+- Top-5 priorities this quarter: TBD (your words, from calibration)
 - Chat channels that matter / that are noise: TBD
 - Recurring meetings usually skippable / delegable / async: TBD
 - VIPs (asks always rank high): TBD

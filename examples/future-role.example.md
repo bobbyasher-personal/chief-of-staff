@@ -16,10 +16,12 @@ Role: Senior Engineering Manager, Fulfilment Platform — team of 14 engineers, 
 Aim: Staff Engineering Manager scope within 18 months. Known gap (from her manager, week 1): no cross-org initiative yet — peers know her work, partner orgs don't.
 > *Shape: the level aimed at + the specific, named gap. The gap is what turns "aim" into something the leverage filter can act on.*
 
-Top-3:
+Top-5:
 1. Route Optimisation v2 launch (ships Q3; the org's flagship commitment this year)
 2. A cross-org initiative she leads or visibly co-leads (the aim's gap, made concrete)
 3. Team health through the launch — no regretted attrition on a 14-person team
+4. The Warehouse Telemetry build-vs-buy call landed and the migration started
+5. Both backfills hired and ramped before the launch crunch
 > *Shape: outcomes, not activities. Not "attend launch meetings" — the launch itself, the career gap as a work front, and the people constraint that keeps the other two honest.*
 
 Fronts:
@@ -31,14 +33,14 @@ Fronts:
 Sources (in order): Calendar → Fjordline email → Fjordline chat → docs linked from calendar invites.
 > *Shape: the employer's actual tools, in read order, so a brief can cite where every item came from — and say UNAVAILABLE honestly when one is missing.*
 
-High leverage = advances a Top-3 front, a decision only Ingrid can make, unblocks another team, or is visible to partner orgs / leadership. Low leverage = status meetings with a written update available, solo IC work a tech lead can own, anything recurring that predates her and nobody can justify.
+High leverage = advances a Top-5 front, a decision only Ingrid can make, unblocks another team, or is visible to partner orgs / leadership. Low leverage = status meetings with a written update available, solo IC work a tech lead can own, anything recurring that predates her and nobody can justify.
 > *Shape: starts from the generic definition, then adds this role's concrete low-leverage tells — that's what makes the Cut / delegate / async list real instead of theoretical.*
 
 Calibration answers (week 1–3):
 1. Channels that matter: #fulfilment-platform, #route-opt-incidents, #eng-leads. Noise: #general, #random, two social channels.
 2. Usually skippable/async: Monday org all-hands (recording + notes), Thursday vendor status (written update exists).
 3. VIPs: her manager; the Director of Carrier Partnerships (owns the API sign-off); the PM for Route Optimisation; the Staff Engineer on Telemetry; Recruiting lead for her backfills.
-4. Top-3 in her words: "Ship the launch, get known outside my org, don't lose the team doing it."
+4. Top-5 in her words: "Ship the launch, get known outside my org, don't lose the team doing it, land the telemetry call, fill the two seats."
 5. Standing draft rules: drafts in her voice — short, decision-first; never draft anything to the carrier partner without her reviewing the numbers line.
 > *Shape: calibration is answers, not vibes — named channels, named meetings, named people. If a VIP list has no names, calibration hasn't happened yet.*
 

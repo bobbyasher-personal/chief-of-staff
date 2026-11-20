@@ -8,7 +8,7 @@
 - (Q5 calibration answers and any "always / never" rule the principal gives go here, effective immediately.)
 
 ## thesis — Tuning (from calibration; update as the principal confirms)
-- Top-3 priorities this quarter: TBD
+- Top-5 priorities this quarter: TBD
   <!-- replace with the principal's own words at calibration -->
 - Slack channels that matter: TBD — calibration Q1
 - Slack channels that are noise: TBD — calibration Q1

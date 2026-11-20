@@ -10,6 +10,6 @@ Frequency: daily
 - No free blocks means no time to think — that is an emergency, say so directly
 
 ## Prompt
-Analyze messaging patterns and calendar load. Name ONE pattern: a channel/person consuming disproportionate attention relative to his Top-3, or an absorbing-vs-directing imbalance, or the absence of think time.
+Analyze messaging patterns and calendar load. Name ONE pattern: a channel/person consuming disproportionate attention relative to his Top-5, or an absorbing-vs-directing imbalance, or the absence of think time.
 Suggest one concrete change (mute/delegate/batch/block 2h). If the pattern is healthy, output exactly: No clear signal today.
 Max 2 sentences. Output only the insight.

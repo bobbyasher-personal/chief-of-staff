@@ -10,7 +10,7 @@ Frequency: daily (morning + eod)
 - Ruthless prioritization means saying no to good things for the great thing
 
 ## Prompt
-Identify the SINGLE highest-leverage action you should take next, scored against his Top-3 priorities and director scope.
+Identify the SINGLE highest-leverage action you should take next, scored against his Top-5 priorities and director scope.
 Rules: pick ONE specific action, name the person/front it unblocks, one sentence on why it is highest leverage.
 If no single action clearly stands out, output exactly: No clear signal today.
 Max 2 sentences. No fluff. Output only the insight.

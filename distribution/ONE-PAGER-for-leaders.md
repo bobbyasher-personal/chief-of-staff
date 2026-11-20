@@ -7,7 +7,7 @@
 - A **2-minute morning brief** (weekdays): the single highest-leverage action for today, who's blocked on you ranked by leverage, calendar verdicts (attend / skip / delegate / async), prep cards for your top 3 meetings, and your open commitments — every item cited to its source.
 - A **Monday Chief-of-Staff pass**: what closed vs. slipped last week, what % of your meeting hours were actually high-leverage, your biggest low-leverage drain (with a proposal to kill it), your fronts and the one decision each is waiting on, and prep for your 1:1 with your manager.
 
-**What makes it different from a summary bot.** It scores everything against YOUR Top-3 priorities, it is allowed to say "no clear signal today" instead of manufacturing insights, it tracks commitments in both directions (what you owe, what's owed to you) and learns — from one-line feedback — what useful and noisy look like for you.
+**What makes it different from a summary bot.** It scores everything against YOUR Top-5 priorities, it is allowed to say "no clear signal today" instead of manufacturing insights, it tracks commitments in both directions (what you owe, what's owed to you) and learns — from one-line feedback — what useful and noisy look like for you.
 
 **Trust model (non-negotiable).** Self-only: it reads only your own data. Read-only: it drafts, it never sends, books, or declines — you take every action. Nothing reports up: no manager view, no dashboard, no aggregation. It is a coach, not a monitoring tool, and it stays useful only as long as that's true.
 
